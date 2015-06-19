@@ -9,14 +9,12 @@ Each of us have our personal and unique lifestyles. A city must complement that 
 
 - [ ] Learn from data to classify cities based on criteria: Average Age, Restaurants, Parks and Recreation, Events, Educational Institutes, Jobs etc.
 - [ ] Front end service to allow user to rank what they find important in their lifestyle and we make city recomendations based on this.
-- 
 
 ## Possible Data Sources
 
 - http://open.canada.ca/en
 - http://namara.io
 - http://www.data.gov/
-- 
 
 ## Technologies
 
