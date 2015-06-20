@@ -1,175 +1,172 @@
-"Table 051-0056 Estimates of population by census metropolitan area, sex and age group for July 1, based on the Standard Geographical Classification (SGC) 2011, annual (persons)(1,2,3,4,5,7,8)"
-Survey or program details:
-"Estimates of Population by Age and Sex for Census Divisions, Census Metropolitan Areas and Economic Regions (Component Method) - 3608"
-Geography,Sex,Age group (6),2014
-"Montréal, Quebec [24462] ",Both sexes,0 to 4 years,226900
-"Montréal, Quebec [24462] ",Both sexes,5 to 9 years,217483
-"Montréal, Quebec [24462] ",Both sexes,10 to 14 years,199491
-"Montréal, Quebec [24462] ",Both sexes,15 to 19 years,227351
-"Montréal, Quebec [24462] ",Both sexes,20 to 24 years,287307
-"Montréal, Quebec [24462] ",Both sexes,25 to 29 years,278544
-"Montréal, Quebec [24462] ",Both sexes,30 to 34 years,302095
-"Montréal, Quebec [24462] ",Both sexes,35 to 39 years,298522
-"Montréal, Quebec [24462] ",Both sexes,40 to 44 years,278438
-"Montréal, Quebec [24462] ",Both sexes,45 to 49 years,287957
-"Montréal, Quebec [24462] ",Both sexes,50 to 54 years,303523
-"Montréal, Quebec [24462] ",Both sexes,55 to 59 years,273784
-"Montréal, Quebec [24462] ",Both sexes,60 to 64 years,225086
-"Montréal, Quebec [24462] ",Both sexes,65 to 69 years,194633
-"Montréal, Quebec [24462] ",Both sexes,70 to 74 years,147139
-"Montréal, Quebec [24462] ",Both sexes,75 to 79 years,109775
-"Montréal, Quebec [24462] ",Both sexes,80 to 84 years,86317
-"Montréal, Quebec [24462] ",Both sexes,85 to 89 years,53471
-"Montréal, Quebec [24462] ",Both sexes,90 years and over,29305
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,0 to 4 years,71782
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,5 to 9 years,72538
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,10 to 14 years,69821
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,15 to 19 years,80802
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,20 to 24 years,100413
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,25 to 29 years,97219
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,30 to 34 years,92972
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,35 to 39 years,90196
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,40 to 44 years,91820
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,45 to 49 years,95969
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,50 to 54 years,105520
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,55 to 59 years,92226
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,60 to 64 years,74387
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,65 to 69 years,62216
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,70 to 74 years,42817
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,75 to 79 years,30973
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,80 to 84 years,22872
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,85 to 89 years,14563
-"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",Both sexes,90 years and over,9016
-"Toronto, Ontario [35535] ",Both sexes,0 to 4 years,325411
-"Toronto, Ontario [35535] ",Both sexes,5 to 9 years,333870
-"Toronto, Ontario [35535] ",Both sexes,10 to 14 years,330852
-"Toronto, Ontario [35535] ",Both sexes,15 to 19 years,384968
-"Toronto, Ontario [35535] ",Both sexes,20 to 24 years,440438
-"Toronto, Ontario [35535] ",Both sexes,25 to 29 years,446335
-"Toronto, Ontario [35535] ",Both sexes,30 to 34 years,450378
-"Toronto, Ontario [35535] ",Both sexes,35 to 39 years,433342
-"Toronto, Ontario [35535] ",Both sexes,40 to 44 years,442170
-"Toronto, Ontario [35535] ",Both sexes,45 to 49 years,459324
-"Toronto, Ontario [35535] ",Both sexes,50 to 54 years,468194
-"Toronto, Ontario [35535] ",Both sexes,55 to 59 years,397426
-"Toronto, Ontario [35535] ",Both sexes,60 to 64 years,321738
-"Toronto, Ontario [35535] ",Both sexes,65 to 69 years,265387
-"Toronto, Ontario [35535] ",Both sexes,70 to 74 years,186785
-"Toronto, Ontario [35535] ",Both sexes,75 to 79 years,148203
-"Toronto, Ontario [35535] ",Both sexes,80 to 84 years,110657
-"Toronto, Ontario [35535] ",Both sexes,85 to 89 years,69908
-"Toronto, Ontario [35535] ",Both sexes,90 years and over,40338
-"Hamilton, Ontario [35537] ",Both sexes,0 to 4 years,38581
-"Hamilton, Ontario [35537] ",Both sexes,5 to 9 years,40637
-"Hamilton, Ontario [35537] ",Both sexes,10 to 14 years,41336
-"Hamilton, Ontario [35537] ",Both sexes,15 to 19 years,47666
-"Hamilton, Ontario [35537] ",Both sexes,20 to 24 years,55384
-"Hamilton, Ontario [35537] ",Both sexes,25 to 29 years,51266
-"Hamilton, Ontario [35537] ",Both sexes,30 to 34 years,48861
-"Hamilton, Ontario [35537] ",Both sexes,35 to 39 years,47760
-"Hamilton, Ontario [35537] ",Both sexes,40 to 44 years,50364
-"Hamilton, Ontario [35537] ",Both sexes,45 to 49 years,54622
-"Hamilton, Ontario [35537] ",Both sexes,50 to 54 years,60410
-"Hamilton, Ontario [35537] ",Both sexes,55 to 59 years,54277
-"Hamilton, Ontario [35537] ",Both sexes,60 to 64 years,45046
-"Hamilton, Ontario [35537] ",Both sexes,65 to 69 years,39294
-"Hamilton, Ontario [35537] ",Both sexes,70 to 74 years,29062
-"Hamilton, Ontario [35537] ",Both sexes,75 to 79 years,22816
-"Hamilton, Ontario [35537] ",Both sexes,80 to 84 years,18373
-"Hamilton, Ontario [35537] ",Both sexes,85 to 89 years,12569
-"Hamilton, Ontario [35537] ",Both sexes,90 years and over,6904
-"Winnipeg, Manitoba [46602] ",Both sexes,0 to 4 years,42650
-"Winnipeg, Manitoba [46602] ",Both sexes,5 to 9 years,42805
-"Winnipeg, Manitoba [46602] ",Both sexes,10 to 14 years,44082
-"Winnipeg, Manitoba [46602] ",Both sexes,15 to 19 years,49969
-"Winnipeg, Manitoba [46602] ",Both sexes,20 to 24 years,57946
-"Winnipeg, Manitoba [46602] ",Both sexes,25 to 29 years,59489
-"Winnipeg, Manitoba [46602] ",Both sexes,30 to 34 years,57410
-"Winnipeg, Manitoba [46602] ",Both sexes,35 to 39 years,53508
-"Winnipeg, Manitoba [46602] ",Both sexes,40 to 44 years,52223
-"Winnipeg, Manitoba [46602] ",Both sexes,45 to 49 years,53260
-"Winnipeg, Manitoba [46602] ",Both sexes,50 to 54 years,59015
-"Winnipeg, Manitoba [46602] ",Both sexes,55 to 59 years,52834
-"Winnipeg, Manitoba [46602] ",Both sexes,60 to 64 years,44663
-"Winnipeg, Manitoba [46602] ",Both sexes,65 to 69 years,36396
-"Winnipeg, Manitoba [46602] ",Both sexes,70 to 74 years,25073
-"Winnipeg, Manitoba [46602] ",Both sexes,75 to 79 years,18904
-"Winnipeg, Manitoba [46602] ",Both sexes,80 to 84 years,15323
-"Winnipeg, Manitoba [46602] ",Both sexes,85 to 89 years,10395
-"Winnipeg, Manitoba [46602] ",Both sexes,90 years and over,6695
-"Saskatoon, Saskatchewan [47725] ",Both sexes,0 to 4 years,18781
-"Saskatoon, Saskatchewan [47725] ",Both sexes,5 to 9 years,17543
-"Saskatoon, Saskatchewan [47725] ",Both sexes,10 to 14 years,16329
-"Saskatoon, Saskatchewan [47725] ",Both sexes,15 to 19 years,17684
-"Saskatoon, Saskatchewan [47725] ",Both sexes,20 to 24 years,25784
-"Saskatoon, Saskatchewan [47725] ",Both sexes,25 to 29 years,30688
-"Saskatoon, Saskatchewan [47725] ",Both sexes,30 to 34 years,25747
-"Saskatoon, Saskatchewan [47725] ",Both sexes,35 to 39 years,21245
-"Saskatoon, Saskatchewan [47725] ",Both sexes,40 to 44 years,19191
-"Saskatoon, Saskatchewan [47725] ",Both sexes,45 to 49 years,18406
-"Saskatoon, Saskatchewan [47725] ",Both sexes,50 to 54 years,20540
-"Saskatoon, Saskatchewan [47725] ",Both sexes,55 to 59 years,18815
-"Saskatoon, Saskatchewan [47725] ",Both sexes,60 to 64 years,14638
-"Saskatoon, Saskatchewan [47725] ",Both sexes,65 to 69 years,10801
-"Saskatoon, Saskatchewan [47725] ",Both sexes,70 to 74 years,7621
-"Saskatoon, Saskatchewan [47725] ",Both sexes,75 to 79 years,6164
-"Saskatoon, Saskatchewan [47725] ",Both sexes,80 to 84 years,5053
-"Saskatoon, Saskatchewan [47725] ",Both sexes,85 to 89 years,3375
-"Saskatoon, Saskatchewan [47725] ",Both sexes,90 years and over,2229
-"Calgary, Alberta [48825] ",Both sexes,0 to 4 years,89805
-"Calgary, Alberta [48825] ",Both sexes,5 to 9 years,84225
-"Calgary, Alberta [48825] ",Both sexes,10 to 14 years,74803
-"Calgary, Alberta [48825] ",Both sexes,15 to 19 years,79881
-"Calgary, Alberta [48825] ",Both sexes,20 to 24 years,96080
-"Calgary, Alberta [48825] ",Both sexes,25 to 29 years,120221
-"Calgary, Alberta [48825] ",Both sexes,30 to 34 years,131436
-"Calgary, Alberta [48825] ",Both sexes,35 to 39 years,116639
-"Calgary, Alberta [48825] ",Both sexes,40 to 44 years,109421
-"Calgary, Alberta [48825] ",Both sexes,45 to 49 years,100254
-"Calgary, Alberta [48825] ",Both sexes,50 to 54 years,101905
-"Calgary, Alberta [48825] ",Both sexes,55 to 59 years,91441
-"Calgary, Alberta [48825] ",Both sexes,60 to 64 years,68108
-"Calgary, Alberta [48825] ",Both sexes,65 to 69 years,49858
-"Calgary, Alberta [48825] ",Both sexes,70 to 74 years,32362
-"Calgary, Alberta [48825] ",Both sexes,75 to 79 years,23854
-"Calgary, Alberta [48825] ",Both sexes,80 to 84 years,18373
-"Calgary, Alberta [48825] ",Both sexes,85 to 89 years,11689
-"Calgary, Alberta [48825] ",Both sexes,90 years and over,6366
-"Edmonton, Alberta [48835] ",Both sexes,0 to 4 years,82258
-"Edmonton, Alberta [48835] ",Both sexes,5 to 9 years,76041
-"Edmonton, Alberta [48835] ",Both sexes,10 to 14 years,68847
-"Edmonton, Alberta [48835] ",Both sexes,15 to 19 years,75982
-"Edmonton, Alberta [48835] ",Both sexes,20 to 24 years,100819
-"Edmonton, Alberta [48835] ",Both sexes,25 to 29 years,120822
-"Edmonton, Alberta [48835] ",Both sexes,30 to 34 years,119021
-"Edmonton, Alberta [48835] ",Both sexes,35 to 39 years,100873
-"Edmonton, Alberta [48835] ",Both sexes,40 to 44 years,90910
-"Edmonton, Alberta [48835] ",Both sexes,45 to 49 years,88338
-"Edmonton, Alberta [48835] ",Both sexes,50 to 54 years,95495
-"Edmonton, Alberta [48835] ",Both sexes,55 to 59 years,87070
-"Edmonton, Alberta [48835] ",Both sexes,60 to 64 years,68302
-"Edmonton, Alberta [48835] ",Both sexes,65 to 69 years,51697
-"Edmonton, Alberta [48835] ",Both sexes,70 to 74 years,34819
-"Edmonton, Alberta [48835] ",Both sexes,75 to 79 years,26223
-"Edmonton, Alberta [48835] ",Both sexes,80 to 84 years,20381
-"Edmonton, Alberta [48835] ",Both sexes,85 to 89 years,12737
-"Edmonton, Alberta [48835] ",Both sexes,90 years and over,7655
-"Vancouver, British Columbia [59933] ",Both sexes,0 to 4 years,115443
-"Vancouver, British Columbia [59933] ",Both sexes,5 to 9 years,118892
-"Vancouver, British Columbia [59933] ",Both sexes,10 to 14 years,120898
-"Vancouver, British Columbia [59933] ",Both sexes,15 to 19 years,152912
-"Vancouver, British Columbia [59933] ",Both sexes,20 to 24 years,184869
-"Vancouver, British Columbia [59933] ",Both sexes,25 to 29 years,183950
-"Vancouver, British Columbia [59933] ",Both sexes,30 to 34 years,187904
-"Vancouver, British Columbia [59933] ",Both sexes,35 to 39 years,173364
-"Vancouver, British Columbia [59933] ",Both sexes,40 to 44 years,181046
-"Vancouver, British Columbia [59933] ",Both sexes,45 to 49 years,185575
-"Vancouver, British Columbia [59933] ",Both sexes,50 to 54 years,190852
-"Vancouver, British Columbia [59933] ",Both sexes,55 to 59 years,170715
-"Vancouver, British Columbia [59933] ",Both sexes,60 to 64 years,143652
-"Vancouver, British Columbia [59933] ",Both sexes,65 to 69 years,118624
-"Vancouver, British Columbia [59933] ",Both sexes,70 to 74 years,83506
-"Vancouver, British Columbia [59933] ",Both sexes,75 to 79 years,62596
-"Vancouver, British Columbia [59933] ",Both sexes,80 to 84 years,47303
-"Vancouver, British Columbia [59933] ",Both sexes,85 to 89 years,30223
-"Vancouver, British Columbia [59933] ",Both sexes,90 years and over,17965
+Geography,Age,2014
+"Montréal, Quebec [24462] ",0 to 4 years,226900
+"Montréal, Quebec [24462] ",5 to 9 years,217483
+"Montréal, Quebec [24462] ",10 to 14 years,199491
+"Montréal, Quebec [24462] ",15 to 19 years,227351
+"Montréal, Quebec [24462] ",20 to 24 years,287307
+"Montréal, Quebec [24462] ",25 to 29 years,278544
+"Montréal, Quebec [24462] ",30 to 34 years,302095
+"Montréal, Quebec [24462] ",35 to 39 years,298522
+"Montréal, Quebec [24462] ",40 to 44 years,278438
+"Montréal, Quebec [24462] ",45 to 49 years,287957
+"Montréal, Quebec [24462] ",50 to 54 years,303523
+"Montréal, Quebec [24462] ",55 to 59 years,273784
+"Montréal, Quebec [24462] ",60 to 64 years,225086
+"Montréal, Quebec [24462] ",65 to 69 years,194633
+"Montréal, Quebec [24462] ",70 to 74 years,147139
+"Montréal, Quebec [24462] ",75 to 79 years,109775
+"Montréal, Quebec [24462] ",80 to 84 years,86317
+"Montréal, Quebec [24462] ",85 to 89 years,53471
+"Montréal, Quebec [24462] ",90 years and over,29305
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",0 to 4 years,71782
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",5 to 9 years,72538
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",10 to 14 years,69821
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",15 to 19 years,80802
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",20 to 24 years,100413
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",25 to 29 years,97219
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",30 to 34 years,92972
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",35 to 39 years,90196
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",40 to 44 years,91820
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",45 to 49 years,95969
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",50 to 54 years,105520
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",55 to 59 years,92226
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",60 to 64 years,74387
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",65 to 69 years,62216
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",70 to 74 years,42817
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",75 to 79 years,30973
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",80 to 84 years,22872
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",85 to 89 years,14563
+"Ottawa-Gatineau, Ontario/Quebec [24505 35505] ",90 years and over,9016
+"Toronto, Ontario [35535] ",0 to 4 years,325411
+"Toronto, Ontario [35535] ",5 to 9 years,333870
+"Toronto, Ontario [35535] ",10 to 14 years,330852
+"Toronto, Ontario [35535] ",15 to 19 years,384968
+"Toronto, Ontario [35535] ",20 to 24 years,440438
+"Toronto, Ontario [35535] ",25 to 29 years,446335
+"Toronto, Ontario [35535] ",30 to 34 years,450378
+"Toronto, Ontario [35535] ",35 to 39 years,433342
+"Toronto, Ontario [35535] ",40 to 44 years,442170
+"Toronto, Ontario [35535] ",45 to 49 years,459324
+"Toronto, Ontario [35535] ",50 to 54 years,468194
+"Toronto, Ontario [35535] ",55 to 59 years,397426
+"Toronto, Ontario [35535] ",60 to 64 years,321738
+"Toronto, Ontario [35535] ",65 to 69 years,265387
+"Toronto, Ontario [35535] ",70 to 74 years,186785
+"Toronto, Ontario [35535] ",75 to 79 years,148203
+"Toronto, Ontario [35535] ",80 to 84 years,110657
+"Toronto, Ontario [35535] ",85 to 89 years,69908
+"Toronto, Ontario [35535] ",90 years and over,40338
+"Hamilton, Ontario [35537] ",0 to 4 years,38581
+"Hamilton, Ontario [35537] ",5 to 9 years,40637
+"Hamilton, Ontario [35537] ",10 to 14 years,41336
+"Hamilton, Ontario [35537] ",15 to 19 years,47666
+"Hamilton, Ontario [35537] ",20 to 24 years,55384
+"Hamilton, Ontario [35537] ",25 to 29 years,51266
+"Hamilton, Ontario [35537] ",30 to 34 years,48861
+"Hamilton, Ontario [35537] ",35 to 39 years,47760
+"Hamilton, Ontario [35537] ",40 to 44 years,50364
+"Hamilton, Ontario [35537] ",45 to 49 years,54622
+"Hamilton, Ontario [35537] ",50 to 54 years,60410
+"Hamilton, Ontario [35537] ",55 to 59 years,54277
+"Hamilton, Ontario [35537] ",60 to 64 years,45046
+"Hamilton, Ontario [35537] ",65 to 69 years,39294
+"Hamilton, Ontario [35537] ",70 to 74 years,29062
+"Hamilton, Ontario [35537] ",75 to 79 years,22816
+"Hamilton, Ontario [35537] ",80 to 84 years,18373
+"Hamilton, Ontario [35537] ",85 to 89 years,12569
+"Hamilton, Ontario [35537] ",90 years and over,6904
+"Winnipeg, Manitoba [46602] ",0 to 4 years,42650
+"Winnipeg, Manitoba [46602] ",5 to 9 years,42805
+"Winnipeg, Manitoba [46602] ",10 to 14 years,44082
+"Winnipeg, Manitoba [46602] ",15 to 19 years,49969
+"Winnipeg, Manitoba [46602] ",20 to 24 years,57946
+"Winnipeg, Manitoba [46602] ",25 to 29 years,59489
+"Winnipeg, Manitoba [46602] ",30 to 34 years,57410
+"Winnipeg, Manitoba [46602] ",35 to 39 years,53508
+"Winnipeg, Manitoba [46602] ",40 to 44 years,52223
+"Winnipeg, Manitoba [46602] ",45 to 49 years,53260
+"Winnipeg, Manitoba [46602] ",50 to 54 years,59015
+"Winnipeg, Manitoba [46602] ",55 to 59 years,52834
+"Winnipeg, Manitoba [46602] ",60 to 64 years,44663
+"Winnipeg, Manitoba [46602] ",65 to 69 years,36396
+"Winnipeg, Manitoba [46602] ",70 to 74 years,25073
+"Winnipeg, Manitoba [46602] ",75 to 79 years,18904
+"Winnipeg, Manitoba [46602] ",80 to 84 years,15323
+"Winnipeg, Manitoba [46602] ",85 to 89 years,10395
+"Winnipeg, Manitoba [46602] ",90 years and over,6695
+"Saskatoon, Saskatchewan [47725] ",0 to 4 years,18781
+"Saskatoon, Saskatchewan [47725] ",5 to 9 years,17543
+"Saskatoon, Saskatchewan [47725] ",10 to 14 years,16329
+"Saskatoon, Saskatchewan [47725] ",15 to 19 years,17684
+"Saskatoon, Saskatchewan [47725] ",20 to 24 years,25784
+"Saskatoon, Saskatchewan [47725] ",25 to 29 years,30688
+"Saskatoon, Saskatchewan [47725] ",30 to 34 years,25747
+"Saskatoon, Saskatchewan [47725] ",35 to 39 years,21245
+"Saskatoon, Saskatchewan [47725] ",40 to 44 years,19191
+"Saskatoon, Saskatchewan [47725] ",45 to 49 years,18406
+"Saskatoon, Saskatchewan [47725] ",50 to 54 years,20540
+"Saskatoon, Saskatchewan [47725] ",55 to 59 years,18815
+"Saskatoon, Saskatchewan [47725] ",60 to 64 years,14638
+"Saskatoon, Saskatchewan [47725] ",65 to 69 years,10801
+"Saskatoon, Saskatchewan [47725] ",70 to 74 years,7621
+"Saskatoon, Saskatchewan [47725] ",75 to 79 years,6164
+"Saskatoon, Saskatchewan [47725] ",80 to 84 years,5053
+"Saskatoon, Saskatchewan [47725] ",85 to 89 years,3375
+"Saskatoon, Saskatchewan [47725] ",90 years and over,2229
+"Calgary, Alberta [48825] ",0 to 4 years,89805
+"Calgary, Alberta [48825] ",5 to 9 years,84225
+"Calgary, Alberta [48825] ",10 to 14 years,74803
+"Calgary, Alberta [48825] ",15 to 19 years,79881
+"Calgary, Alberta [48825] ",20 to 24 years,96080
+"Calgary, Alberta [48825] ",25 to 29 years,120221
+"Calgary, Alberta [48825] ",30 to 34 years,131436
+"Calgary, Alberta [48825] ",35 to 39 years,116639
+"Calgary, Alberta [48825] ",40 to 44 years,109421
+"Calgary, Alberta [48825] ",45 to 49 years,100254
+"Calgary, Alberta [48825] ",50 to 54 years,101905
+"Calgary, Alberta [48825] ",55 to 59 years,91441
+"Calgary, Alberta [48825] ",60 to 64 years,68108
+"Calgary, Alberta [48825] ",65 to 69 years,49858
+"Calgary, Alberta [48825] ",70 to 74 years,32362
+"Calgary, Alberta [48825] ",75 to 79 years,23854
+"Calgary, Alberta [48825] ",80 to 84 years,18373
+"Calgary, Alberta [48825] ",85 to 89 years,11689
+"Calgary, Alberta [48825] ",90 years and over,6366
+"Edmonton, Alberta [48835] ",0 to 4 years,82258
+"Edmonton, Alberta [48835] ",5 to 9 years,76041
+"Edmonton, Alberta [48835] ",10 to 14 years,68847
+"Edmonton, Alberta [48835] ",15 to 19 years,75982
+"Edmonton, Alberta [48835] ",20 to 24 years,100819
+"Edmonton, Alberta [48835] ",25 to 29 years,120822
+"Edmonton, Alberta [48835] ",30 to 34 years,119021
+"Edmonton, Alberta [48835] ",35 to 39 years,100873
+"Edmonton, Alberta [48835] ",40 to 44 years,90910
+"Edmonton, Alberta [48835] ",45 to 49 years,88338
+"Edmonton, Alberta [48835] ",50 to 54 years,95495
+"Edmonton, Alberta [48835] ",55 to 59 years,87070
+"Edmonton, Alberta [48835] ",60 to 64 years,68302
+"Edmonton, Alberta [48835] ",65 to 69 years,51697
+"Edmonton, Alberta [48835] ",70 to 74 years,34819
+"Edmonton, Alberta [48835] ",75 to 79 years,26223
+"Edmonton, Alberta [48835] ",80 to 84 years,20381
+"Edmonton, Alberta [48835] ",85 to 89 years,12737
+"Edmonton, Alberta [48835] ",90 years and over,7655
+"Vancouver, British Columbia [59933] ",0 to 4 years,115443
+"Vancouver, British Columbia [59933] ",5 to 9 years,118892
+"Vancouver, British Columbia [59933] ",10 to 14 years,120898
+"Vancouver, British Columbia [59933] ",15 to 19 years,152912
+"Vancouver, British Columbia [59933] ",20 to 24 years,184869
+"Vancouver, British Columbia [59933] ",25 to 29 years,183950
+"Vancouver, British Columbia [59933] ",30 to 34 years,187904
+"Vancouver, British Columbia [59933] ",35 to 39 years,173364
+"Vancouver, British Columbia [59933] ",40 to 44 years,181046
+"Vancouver, British Columbia [59933] ",45 to 49 years,185575
+"Vancouver, British Columbia [59933] ",50 to 54 years,190852
+"Vancouver, British Columbia [59933] ",55 to 59 years,170715
+"Vancouver, British Columbia [59933] ",60 to 64 years,143652
+"Vancouver, British Columbia [59933] ",65 to 69 years,118624
+"Vancouver, British Columbia [59933] ",70 to 74 years,83506
+"Vancouver, British Columbia [59933] ",75 to 79 years,62596
+"Vancouver, British Columbia [59933] ",80 to 84 years,47303
+"Vancouver, British Columbia [59933] ",85 to 89 years,30223
+"Vancouver, British Columbia [59933] ",90 years and over,17965
