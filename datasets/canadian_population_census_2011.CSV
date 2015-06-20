@@ -1,0 +1,47 @@
+"Geographic code","Geographic name","Geographic type","Incompletely enumerated Indian reserves and Indian settlements, 2011","Population, 2011","Population, 2006","2006 adjusted population flag","Population, % change","Total private dwellings, 2011","Private dwellings occupied by usual residents, 2011","Land area in square kilometres, 2011","Population density per square kilometre, 2011","National population rank, 2011","National population rank, 2006"
+"535","Toronto (Ont.)",CMA,F,5583064,5113149,F,9.2,2079459,1989705,5905.7064,945.3677,1,1
+"462","Montréal (Que.)",CMA,T,3824221,3635556,T,5.2,1696210,1613260,4258.3135,898.0600,2,2
+"933","Vancouver (B.C.)",CMA,F,2313328,2116581,F,9.3,949565,891336,2882.5470,802.5292,3,3
+"505","Ottawa - Gatineau (Ont./Que.)",CMA,F,1236324,1133633,T,9.1,526627,498636,6287.0348,196.6466,4,4
+"825","Calgary (Alta.)",CMA,F,1214839,1079310,F,12.6,488451,464001,5107.5498,237.8516,5,5
+"835","Edmonton (Alta.)",CMA,F,1159869,1034945,F,12.1,482249,450786,9426.7278,123.0405,6,6
+"421","Québec (Que.)",CMA,T,765706,719153,T,6.5,361447,345892,3349.1217,228.6289,7,7
+"602","Winnipeg (Man.)",CMA,T,730018,694668,F,5.1,304779,291316,5303.0886,137.6590,8,8
+"537","Hamilton (Ont.)",CMA,F,721053,692911,F,4.1,294150,282186,1371.8507,525.6060,9,9
+"541","Kitchener - Cambridge - Waterloo (Ont.)",CMA,F,477160,451235,F,5.7,191739,181493,827.4265,576.6796,10,11
+"555","London (Ont.)",CMA,F,474786,457720,F,3.7,211260,195056,2665.6170,178.1149,11,10
+"539","St. Catharines - Niagara (Ont.)",CMA,F,392184,390317,F,0.5,174338,160455,1397.5130,280.6299,12,12
+"205","Halifax (N.S.)",CMA,F,390328,372858,F,4.7,177295,165153,5495.7148,71.0241,13,13
+"532","Oshawa (Ont.)",CMA,F,356177,330594,F,7.7,134034,129698,903.5140,394.2130,14,14
+"935","Victoria (B.C.)",CMA,T,344615,330088,F,4.4,167229,153328,696.1453,495.0331,15,15
+"559","Windsor (Ont.)",CMA,F,319246,323342,F,-1.3,137098,126843,1022.3075,312.2798,16,16
+"725","Saskatoon (Sask.)",CMA,F,260600,233923,F,11.4,110314,104237,5214.5165,49.9759,17,17
+"705","Regina (Sask.)",CMA,F,210556,194971,F,8.0,90262,85731,3408.2766,61.7778,18,18
+"433","Sherbrooke (Que.)",CMA,F,201890,191410,T,5.5,99913,91099,1459.6066,138.3181,19,19
+"001","St. John's (N.L.)",CMA,F,196966,181113,F,8.8,84542,78960,804.6547,244.7833,20,20
+"568","Barrie (Ont.)",CMA,F,187013,177061,F,5.6,72817,68495,897.8263,208.2953,21,21
+"915","Kelowna (B.C.)",CMA,F,179839,162276,F,10.8,83836,74942,2904.8646,61.9096,22,22
+"932","Abbotsford - Mission (B.C.)",CMA,F,170191,159020,F,7.0,63821,59317,605.1752,281.2260,23,23
+"580","Greater Sudbury / Grand Sudbury (Ont.)",CMA,F,160770,158258,F,1.6,72736,67767,3410.6183,47.1381,24,24
+"521","Kingston (Ont.)",CMA,F,159561,152358,F,4.7,73889,65965,1938.9238,82.2936,25,26
+"408","Saguenay (Que.)",CMA,F,157790,156305,T,1.0,73766,69507,2564.0210,61.5401,26,25
+"442","Trois-Rivières (Que.)",CMA,F,151773,144713,T,4.9,74837,70138,1041.1544,145.7738,27,27
+"550","Guelph (Ont.)",CMA,F,141097,133698,T,5.5,59362,54868,593.5206,237.7289,28,28
+"305","Moncton (N.B.)",CMA,F,138644,126424,F,9.7,62403,58294,2406.3116,57.6168,29,29
+"543","Brantford (Ont.)",CMA,F,135501,124607,F,8.7,55115,52726,1073.1127,126.2691,30,30
+"310","Saint John (N.B.)",CMA,F,127761,122389,F,4.4,56775,52281,3362.9481,37.9908,31,32
+"595","Thunder Bay (Ont.)",CMA,F,121596,122907,F,-1.1,56071,52062,2556.3652,47.5660,32,31
+"529","Peterborough (Ont.)",CMA,F,118975,116570,F,2.1,53730,48848,1506.9006,78.9534,33,33
+
+Note:
+"Incompletely enumerated Indian reserves and Indian settlements, 2011","T = excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements."
+"Incompletely enumerated Indian reserves and Indian settlements, 2006","T = excludes census data for one or more incompletely enumerated Indian reserves or Indian settlements."
+"2006 adjusted population flag","T = adjusted figure due to boundary change."
+"2006 adjusted total private dwellings flag","T = adjusted figure due to boundary change."
+"2006 adjusted private dwellings occupied by usual residents flag","T = adjusted figure due to boundary change."
+"For further information, refer to: http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/Notes-eng.cfm."
+
+"Source: Statistics Canada, 2011 Census of Population."
+"How to cite: Statistics Canada. 2012. Population and dwelling counts, for census metropolitan areas, 2011 and 2006 censuses (table). Population and Dwelling Count Highlight Tables. 2011 Census."
+"Statistics Canada Catalogue no. 98-310-XWE2011002. Released February 8, 2012."
+"http://www12.statcan.gc.ca/census-recensement/2011/dp-pd/hlt-fst/pd-pl/File.cfm?T=205&SR=1&RPP=50&PR=0&CMA=0&S=3&O=D&LANG=Eng&OFT=CSV (accessed June 20, 2015)"
