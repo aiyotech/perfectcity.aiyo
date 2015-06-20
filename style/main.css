@@ -11,7 +11,9 @@ html {
 	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.2), rgba(155, 89, 182, 0.2)), 
-		url('http://thecodeplayer.com/uploads/media/gs.png');
+		url('https://download.unsplash.com/photo-1429030150151-548690082f0b');
+		background-size: 1500px 1500px;
+		background-position: 50% 50%
 }
 
 body {
@@ -54,6 +56,26 @@ body {
 	color: #2C3E50;
 	font-size: 13px;
 }
+
+.rateslider { 
+display: inline-block;
+width: 200px;
+}
+
+#parameter {
+float : left;
+padding: 10px;
+width: 30%; 
+}
+
+#slider {
+float :right;
+padding: 10px;
+width: 30%; 
+
+}
+
+
 /*buttons*/
 #msform .action-button {
 	width: 100px;
@@ -76,16 +98,27 @@ body {
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
-.fs-subtitle {
-	font-weight: normal;
-	font-size: 1px;
-	color: #666;
-	margin-bottom: 20px;
+
+.perfectcity {
+	font-family: montserrat, arial, verdana;
+	font-weight: bold;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.main {
+	margin-top: 20px;
+}
+
 }
 /*progressbar*/
 #progressbar {
 	margin-bottom: 30px;
 	overflow: hidden;
+	height: 50px !important;
+	min-height: 50px;
 	/*CSS counters to number the steps*/
 	counter-reset: step;
 }
