@@ -1,3 +1,5 @@
+$(function(){
+
 var current_fs, next_fs, previous_fs; //fieldsets
 var left, opacity, scale; //fieldset properties which we will animate
 var animating; //flag to prevent quick multi-click glitches
@@ -43,7 +45,8 @@ $(".previous").click(function(){
 	
 	current_fs = $(this).parent();
 	previous_fs = $(this).parent().prev();
-	
+	console.log(current_fs)
+	console.log(previous_fs)
 	//de-activate current step on progressbar
 	$("#progressbar li").eq($("fieldset").index(current_fs)).removeClass("active");
 	
@@ -75,3 +78,6 @@ $(".previous").click(function(){
 $(".submit").click(function(){
 	return false;
 })
+
+
+});
