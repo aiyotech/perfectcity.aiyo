@@ -53,13 +53,13 @@ var calculateSimilarity = function( item ){
 }
 
 var current = {
-	CRIME:0.89, 
-	PARKS: 0.5,
-	'AGE_CAT_25-29': 1, 
+	CRIME:data['VANCOUVER']['CRIME'], 
+	PARKS: data['VANCOUVER']['PARKS'],
+	'AGE_CAT_25-29': data['VANCOUVER']['AGE_CAT_25-29'], 
 }
 
 var results = calculateSimilarity(current);
-print( results );
+// print( results );
 
 // print('AGE_CAT_25-29:')
 // for ( city in results ) {
@@ -125,5 +125,41 @@ function objectIsEmpty( obj ){
 }
 
 
-print(max_sort(results));
-print(min_sort(results));
+// print(max_sort(results));
+// print(min_sort(results));
+
+
+function minimize_feature( cities , feature ){
+	// print(cities)
+ var minimum = 1000;
+ var results = [];
+
+ for ( var i = 0; i<cities.length; i++ ) {
+ 	city = cities[i]
+ 	// print(city)
+ 	var city_data = data[city][feature]
+ 	if ( city_data < minimum ){
+
+ 		results.unshift( city );
+ 		minimum = city_data
+ 	}
+ }
+
+return results;
+
+}
+
+
+
+var sorted_results = max_sort(results);
+print(sorted_results);
+sorted_results.splice( sorted_results.length/2, 100 );
+// print( minimize_feature( max_sort(results), 'CRIME' ) );
+
+
+var crime_minimized = minimize_feature( sorted_results, 'CRIME' );
+
+for (var i = 0; i < crime_minimized.length; i++) {
+	print(crime_minimized[i]+':'+data[crime_minimized[i]]['CRIME'])
+};
+
