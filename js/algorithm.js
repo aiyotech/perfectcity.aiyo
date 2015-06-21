@@ -163,3 +163,49 @@ for (var i = 0; i < crime_minimized.length; i++) {
 	print(crime_minimized[i]+':'+data[crime_minimized[i]]['CRIME'])
 };
 
+
+function determineAgeGroup ( age ) {
+	
+	if( age < 5 ) {
+		return 'AGE_CAT_0-4';
+	} else if ( age < 10 ) {
+		return 'AGE_CAT_5-9';
+	} else if  ( age < 15 ) {
+		return 'AGE_CAT_10-14';
+	} else if ( age < 20 ) {
+		return 'AGE_CAT_15-19';
+	} else if ( age < 25 ) {
+		return 'AGE_CAT_20-24';
+	} else if ( age < 30 ) {
+		return 'AGE_CAT_25-29';
+	} else if ( age < 35 ){
+		return 'AGE_CAT_30-34';
+	} else if ( age < 40 ) {
+		return 'AGE_CAT_35-39';
+	}	else if ( age < 45 ) {
+		return 'AGE_CAT_40-44';
+	} else if ( age < 50 ) {
+		return 'AGE_CAT_44-49';
+	} else if ( age < 55 ) {
+		return 'AGE_CAT_50-54';
+	} else if ( age < 60 ) {
+		return 'AGE_CAT_55-59';
+	} else if ( age < 65 ) {
+		return 'AGE_CAT_60-64';
+	} else if ( age < 70 ) {
+		return 'AGE_CAT_65-69';
+	} else if ( age < 75 ) {
+		return 'AGE_CAT_70-74';
+	} else if ( age < 80 ) {
+		return 'AGE_CAT_75-79';
+	} else if ( age < 85 ) {
+		return 'AGE_CAT_80-84';
+	} else if ( age < 90 ) {
+		return 'AGE_CAT_85-89';
+	} else {
+		return 'AGE_CAT_90'
+	}
+
+}
+
+
