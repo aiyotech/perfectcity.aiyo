@@ -53,7 +53,7 @@ body {
 	width: 100%;
 	box-sizing: border-box;
 	font-family: montserrat;
-	color: #2C3E50;
+	color: #0db9f0;
 	font-size: 13px;
 }
 
@@ -168,9 +168,3 @@ width: 70%;
 	background: #27AE60;
 	color: white;
 }
-
-#footer {
-display: inline-block;
-}
-
-

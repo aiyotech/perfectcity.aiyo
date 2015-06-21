@@ -152,16 +152,16 @@ return results;
 
 
 var sorted_results = max_sort(results);
-print(sorted_results);
+// print(sorted_results);
 sorted_results.splice( sorted_results.length/2, 100 );
 // print( minimize_feature( max_sort(results), 'CRIME' ) );
 
 
 var crime_minimized = minimize_feature( sorted_results, 'CRIME' );
 
-for (var i = 0; i < crime_minimized.length; i++) {
-	print(crime_minimized[i]+':'+data[crime_minimized[i]]['CRIME'])
-};
+// for (var i = 0; i < crime_minimized.length; i++) {
+// 	print(crime_minimized[i]+':'+data[crime_minimized[i]]['CRIME'])
+// };
 
 
 function determineAgeGroup ( age ) {
@@ -223,7 +223,7 @@ function process( userInformation ){
 
 	return {
 		'CITYNAME':'MONTREAL' ,
-		'IMAGE':'../images/mt_unsplash.png';
+		'IMAGE':'../images/mt_unsplash.png'
 	}
 }
 
