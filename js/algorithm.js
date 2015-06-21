@@ -209,3 +209,19 @@ function determineAgeGroup ( age ) {
 }
 
 
+
+
+
+function process( userInformation ){
+
+	// first parse the age of the user into one of our age groups
+	userInformation['AGE-GROUP'] = determineAgeGroup( userInformation['AGE'] );
+
+	// give that a score of 0.8 to indicate that it will favour that a majority
+	// of the population should be in that age group
+	userInformation[ userInformation['AGE-GROUP'] ] = 0.8;
+
+	return '../images/mt_unsplash.png';
+
+}
+
