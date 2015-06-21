@@ -31,7 +31,7 @@ myApp.directive("rateslider", function(){
             $scope.qty = new Quantity(12);
             $scope.num = num;
         },
-        template: '<div class = "rateslider"> <span id ="parameter"> {{parameter}}: </span> <span id = "slider"> <input type="number" min="0" ng-model="qty.qty" size="20" id="pcs"/>'+
+        template: '<div class = "rateslider"> <span id ="parameter"> {{parameter}}: {{qty.qty}} </span> <span id = "slider">'+
                 '<input type="range" min="0" max="10" ng-model="qty.qty"/> </span> </div>',
         //A link function for when the <rateslider> loads
         link: function(scope, element){
