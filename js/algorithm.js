@@ -227,7 +227,7 @@ function process( sliderValues , aboutYou ){
 
 	return {
 		'CITYNAME':'MONTREAL' ,
-		'IMAGE':'images/mt_unsplash.png'
+		'IMAGE':'images/mtl_unsplash.png'
 	}
 }
 

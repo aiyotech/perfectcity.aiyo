@@ -20,8 +20,8 @@ $scope.clicky = function(){
 }
 
 $scope.getResult = function() {
-	var result = process($scope.sliderValues, $scope.aboutYou);
-	console.log(result);
+	$scope.result = process($scope.sliderValues, $scope.aboutYou);
+	console.log($scope.result);
 }
 });
 
