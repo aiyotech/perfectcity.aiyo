@@ -17,7 +17,7 @@
 	 <script src="js/app1.js"></script>
 	 <script src="js/rzslider.js"></script>
 </head>
-<body ng-app = "rzModule">
+<body ng-app = "myApp">
 <h1 class = "pcity">Ever wondered if there was a perfect city for you?</h1>
 <!-- multistep form -->
 <form id="msform">
@@ -28,16 +28,16 @@
 		<li>Perfect</li>
 	</ul>
 	<!-- fieldsets -->
-<div class = "main">
+<div class = "main" ng-controller="PCtrl">
 	<fieldset >
 		<h2 class="fs-title">Tell us more about you!</h2>
-				<input type="text" name="age" placeholder="How old are you?" />
-				<input type="text" name="city" placeholder="What city do you currently live in?" />
-				<input type="text" name="crime" placeholder="Have you ever been a victim of crime?" />
-				<input type="text" name="employment" placeholder="Are you employed?" />
-				<input type="text" name="education" placeholder="Would you like to pursue higher education?"/>
-				<input type="text" name="age" placeholder="Do you use your city's public transit?" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+				<input type="text" name="age" placeholder="How old are you?" ng-model="aboutYou.age"/>
+				<input type="text" name="city" placeholder="What city do you currently live in?" ng-model="aboutYou.city"/>
+				<input type="text" name="crime" placeholder="Have you ever been a victim of crime?" ng-model="aboutYou.crime"/>
+				<input type="text" name="employment" placeholder="Are you employed?" ng-model="aboutYou.employment"/>
+				<input type="text" name="education" placeholder="Would you like to pursue higher education?" ng-model="aboutYou.education"/>
+				<input type="text" name="transit" placeholder="Do you use your city's public transit?" ng-model="aboutYou.transit"/>
+		<input type="button" name="next" class="next action-button" value="Next" ng-click="clicky()"/>
 	</fieldset>
 
 	<fieldset>
@@ -45,50 +45,50 @@
 			    
 
         <h3 class="fs-subtitle"> Parks: </h3>
-            <rzslider rz-slider-model="priceSlider1"
+            <rzslider rz-slider-model="sliderValues.parks"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
 
         <h3 class="fs-subtitle"> Public Transit: </h3>
-            <rzslider rz-slider-model="priceSlider2"
+            <rzslider rz-slider-model="sliderValues.transit"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
      
 		<h3 class="fs-subtitle"> Population: </h3>
-            <rzslider rz-slider-model="priceSlider3"
+            <rzslider rz-slider-model="sliderValues.population"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
      
 
         <h3 class="fs-subtitle"> Business: </h3>
-            <rzslider rz-slider-model="priceSlider4"
+            <rzslider rz-slider-model="sliderValues.business"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
 
         <h3 class="fs-subtitle"> Crime: </h3>
-            <rzslider rz-slider-model="priceSlider5"
+            <rzslider rz-slider-model="sliderValues.crime"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
 
         <h3 class="fs-subtitle"> School: </h3>
-            <rzslider rz-slider-model="priceSlider6"
+            <rzslider rz-slider-model="sliderValues.school"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>
 
         <h3 > Unemployment: </h3>
-            <rzslider rz-slider-model="priceSlider7"
+            <rzslider rz-slider-model="sliderValues.unemployment"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>        
 		<br>
 	 	<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+		<input type="button" name="next" class="next action-button" value="Next" ng-click="clicky()"/>
 	</fieldset>
 
 
