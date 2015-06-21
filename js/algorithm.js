@@ -210,13 +210,20 @@ function determineAgeGroup ( age ) {
 
 
 
-
+var cityToImageMap = {
+	'EDMONTON': '',
+	'HAMILTON': '',
+	'MONTREAL': '',
+	'OTTAWA': '',
+	'TORONTO': '',
+	'VANCOUVER': ''
+}
 
 function process( sliderValues , aboutYou ){
 
 
 	var userInformation = {}
-
+	userInformation[ determineAgeGroup( aboutYou.age) ] = 0.8;
 
 	// first parse the age of the user into one of our age groups
 	userInformation['AGE-GROUP'] = determineAgeGroup( userInformation['AGE'] );
@@ -227,7 +234,7 @@ function process( sliderValues , aboutYou ){
 
 	return {
 		'CITYNAME':'MONTREAL' ,
-		'IMAGE':'images/mt_unsplash.png'
+		'IMAGE':'images/mtl_unsplash.png'
 	}
 }
 
