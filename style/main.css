@@ -177,6 +177,8 @@ width: 70%;
 
 .sound {
   font-weight: 300;
+  vertical-align: middle;
+  margin: 0px;
   display: inline-table;
   text-align: left;
 }
@@ -185,4 +187,24 @@ width: 70%;
 	display: list-item;
 	text-align: left;
 
+}
+.radio-holder{
+	display: inline-block;
+}
+.radio-button-holder{
+	display: inline-block;
+	text-align: left;
+}
+.text-label{
+	vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  margin-right: 21px;
+}
+
+#msform a.action-button, #msform a.action-button:visited, #msform a.action-button:hover, #msform a.action-button:active{
+	padding-left:18px;
+	padding-right:18px;
+	text-decoration: none;
 }
