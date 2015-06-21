@@ -97,13 +97,13 @@ width: 70%;
 }
 /*headings*/
 .fs-title {
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	color: #2C3E50;
 	margin-bottom: 10px;
 }
 
-.perfectcity {
+.pcity {
 	font-family: montserrat, arial, verdana;
 	font-weight: bold;
 	padding: 10px;
@@ -168,6 +168,5 @@ width: 70%;
 	background: #27AE60;
 	color: white;
 }
-
 
 
