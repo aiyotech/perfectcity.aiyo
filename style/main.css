@@ -168,3 +168,21 @@ width: 70%;
 	background: #27AE60;
 	color: white;
 }
+
+.radio {
+  display: table-row;
+  margin-bottom: 8px;
+  text-align: flex-right;
+}
+
+.sound {
+  font-weight: 300;
+  display: inline-table;
+  text-align: left;
+}
+
+.yesorno {
+	display: list-item;
+	text-align: left;
+
+}
