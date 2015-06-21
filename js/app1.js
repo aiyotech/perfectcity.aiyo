@@ -8,9 +8,15 @@ $scope.sliderValues = {
 	business:5
 }
 
+$scope.aboutYou = {
+
+
+}
+
 $scope.clicky = function(){
 	//just to see if the scope is being updated!
 	console.log($scope.sliderValues);
+	console.log($scope.aboutYou)
 }
 });
 

@@ -31,13 +31,13 @@
 <div class = "main" ng-controller="PCtrl">
 	<fieldset >
 		<h2 class="fs-title">Tell us more about you!</h2>
-				<input type="text" name="age" placeholder="How old are you?" />
-				<input type="text" name="city" placeholder="What city do you currently live in?" />
-				<input type="text" name="crime" placeholder="Have you ever been a victim of crime?" />
-				<input type="text" name="employment" placeholder="Are you employed?" />
-				<input type="text" name="education" placeholder="Would you like to pursue higher education?"/>
-				<input type="text" name="age" placeholder="Do you use your city's public transit?" />
-		<input type="button" name="next" class="next action-button" value="Next" />
+				<input type="text" name="age" placeholder="How old are you?" ng-model="aboutYou.age"/>
+				<input type="text" name="city" placeholder="What city do you currently live in?" ng-model="aboutYou.city"/>
+				<input type="text" name="crime" placeholder="Have you ever been a victim of crime?" ng-model="aboutYou.crime"/>
+				<input type="text" name="employment" placeholder="Are you employed?" ng-model="aboutYou.employment"/>
+				<input type="text" name="education" placeholder="Would you like to pursue higher education?" ng-model="aboutYou.education"/>
+				<input type="text" name="transit" placeholder="Do you use your city's public transit?" ng-model="aboutYou.transit"/>
+		<input type="button" name="next" class="next action-button" value="Next" ng-click="clicky()"/>
 	</fieldset>
 
 	<fieldset>
