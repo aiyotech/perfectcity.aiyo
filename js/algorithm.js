@@ -212,7 +212,11 @@ function determineAgeGroup ( age ) {
 
 
 
-function process( userInformation ){
+function process( sliderValues , aboutYou ){
+
+
+	var userInformation = {}
+
 
 	// first parse the age of the user into one of our age groups
 	userInformation['AGE-GROUP'] = determineAgeGroup( userInformation['AGE'] );
@@ -223,7 +227,7 @@ function process( userInformation ){
 
 	return {
 		'CITYNAME':'MONTREAL' ,
-		'IMAGE':'../images/mt_unsplash.png'
+		'IMAGE':'images/mt_unsplash.png'
 	}
 }
 
