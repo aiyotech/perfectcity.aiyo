@@ -221,7 +221,9 @@ function process( userInformation ){
 	// of the population should be in that age group
 	userInformation[ userInformation['AGE-GROUP'] ] = 0.8;
 
-	return '../images/mt_unsplash.png';
-
+	return {
+		'CITYNAME':'MONTREAL' ,
+		'IMAGE':'../images/mt_unsplash.png';
+	}
 }
 
