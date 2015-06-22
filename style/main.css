@@ -237,3 +237,9 @@ footer{
 footer a {
 	color:white;
 }
+
+.about-p{
+	float:left;
+	text-align: left;
+	padding-bottom: 15px;
+}

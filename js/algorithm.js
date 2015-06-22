@@ -294,12 +294,12 @@ function process( sliderValues , aboutYou ){
 	if (ageGroup === 'AGE_CAT_15-19' || ageGroup === 'AGE_CAT_20-24') {
 		userInformation['UNEMPL_15-24'] = MINS['UNEMPL_15-24'];
 		if ( aboutYou.employment === 'yes') {
-			weights['UNEMPL_15-24'] = 0.5
+			weights['UNEMPL_15-24'] = 0.5;
 		} 
 	} else {
 		userInformation['UNEMPL_15'] = MINS['UNEMPL_15'];
 		if ( aboutYou.employment === 'yes') {
-			weights['UNEMPL_15'] = 0.5
+			weights['UNEMPL_15'] = 0.5;
 		} 
 
 	}
@@ -320,7 +320,7 @@ function process( sliderValues , aboutYou ){
 			selected_city = sorted_results[1];
 		}
 	}
-	
+
 	console.log(selected_city);
 
 

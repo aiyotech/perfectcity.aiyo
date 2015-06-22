@@ -42,23 +42,43 @@
 		This project was built for the <a href="http://sjopendata.challengepost.com/">ChallengePost Open Data Summer Jam</a>. The result of the PerfectCity.io quiz is based on real data carefully <a href="https://github.com/zafarali/perfectcity.io/blob/master/data_curation.ipynb">curated</a> from <a href="http://www.statcan.gc.ca/">Statistics Canada</a> and a few other sources. We worked hard to ensure that the data is the most recent we could find to help give you the best results.</p>
 
 		<p class="about-p">
-		We have carefully crafted questions to help our algorithm decide the best city for you to live in. Here's our methodology behind the questions and how our algorithm works.
+			We have carefully crafted questions to help our algorithm decide the best city for you to live in. Here's our methodology behind the questions and how our algorithm works.
 		</p>
 
 
 		<p class="about-p">
-		We have carefully crafted questions to help our algorithm decide the best city for you to live in. Here's our methodology behind the questions and how our algorithm works.
+			We first ask you for your current city to ensure we don't match you to the same! (If you want to see if your current city is right for you, just leave it out and our algorithm will take care of the rest.)
 		</p>
 
 		<p class="about-p">
-			
+			We ask you for the age is used to match you to a city with simillar proportions of its population as your age group. Our data has a resolution of 5 years to ensure we get the best results. 
 		</p>
-		
+
+
+		<p class="about-p">
+			We then ask you a series of yes/no questions. These determine the weights of the algorithm. Are you looking for a job? Yes? We then place a higher weight on employment data. Want to study? We try to maximize the number of universities in your perfect city.
+		</p>
+
+		<p class="about-p">
+			Our next page consists of sliders which ask you to score parameters that we have for our cities. These help calculate the similarity between your ideal city and those that exist currently.
+		</p>
+
+		<p class="about-p">
+			Our algorithm then calculates the the similarity between you and every other city in our database based on a modification of the inverse weighted <a href="https://en.wikipedia.org/wiki/Euclidean_distance">eucledian distance</a>. This is the math:<br />
+
+			\[\text{similarity}(x^*,x)=\frac{1}{1+\sqrt{\sum_iw_i(x_i^*-x_i)^2}}\]
+
+			<br />
+			Where $($x_i^*$)$ is your preference for the $($i$)$th parameter and $($x_i$)$ is that for the city we are comparing it to. $($w_i$)$ represents the personalized weight that we determined for you.
+		</p>
+
+
 		<br>
 		<a href="index.html" type="button" class="action-button" >Take the Quiz</a>
 
 	</fieldset >
 	
+
 
 </div>
 </form>
@@ -66,7 +86,12 @@
 	
 	<a>Made with &#10084; by <a href="http://www.zafarali.me/">Zafarali Ahmed</a> & <a href="http://imranjameel.com/">Imran Jameel</a> |  <a href="http://github.com/aiyotech">aiyotech &copy;</a> 2015
 </footer>
-</footer>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	tex2jax:{inlineMath:[['$($', '$)$']]}
+});
+</script>
+<script type="text/javascript" src="http://www.hostmath.com/Math/MathJax.js?config=OK"></script>
 </body>
 </html>
 
