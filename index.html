@@ -11,6 +11,7 @@
 	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.js"></script>
 	<script src="js/algorithm.js"></script>
+	<script src="js/jquery.adaptive-backgrounds.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/app1.js"></script>
 	<script src="js/rzslider.js"></script>
@@ -47,7 +48,7 @@
 		What city do you currently live in? <br />
 		<input type="text" name="city" placeholder="New York" ng-model="aboutYou.city"/>
 
-				<input type="button" name="next" class="next action-button" value="Next" ng-click="clicky()"/>
+				<input type="button" name="next" class="next action-button" value="Next"/>
 
 
 	</fieldset >
@@ -93,12 +94,28 @@
 	</div>
 
 
+
+	<div class="radio-parent">
+		<div class="text-label">
+			Are you looking for a job? 
+		</div>
+		<!-- Radio Buttons attempt -->
+		<div class="radio-button-holder">
+  		<div class="radio-holder">
+  			<input class="sound" type="radio" id="employment_yes" value="yes" name="user_employment" ng-model="aboutYou.employment"> Yes
+  		</div>
+	 		<div class="radio-holder">
+  			<input class="sound" type="radio" id="employment_no" value="no" name="user_employment" ng-model="aboutYou.employment"> No
+  		</div>
+	  </div>
+	</div>
+
 		<!-- CRIME  -->
 
 
 	<div class="radio-parent">
 		<div class="text-label">
-			Have you ever been a victim of crime? 
+			Do you feel safe in your city?
 		</div>
 		<!-- Radio Buttons attempt -->
 		<div class="radio-button-holder">
@@ -115,7 +132,7 @@
 		<!-- BUTTONS -->
 
 		<input type="button" name="previous" class="previous action-button" value="Previous" />
-		<input type="button" name="next" class="next action-button" value="Next" ng-click="clicky()"/>
+		<input type="button" name="next" class="next action-button" value="Next" ng-click="$emit('redraw')"/>
 
 	</fieldset>
 
@@ -151,7 +168,7 @@
                 rz-slider-always-show-bar="true"></rzslider>
 
         <h3 > Employment Opportunities: </h3>
-            <rzslider rz-slider-model="sliderValues.unemployment"
+            <rzslider rz-slider-model="sliderValues.employment"
                 rz-slider-floor="0"
                 rz-slider-ceil="10"
                 rz-slider-always-show-bar="true"></rzslider>        
@@ -166,7 +183,7 @@
 		<h2 class="fs-title">And the perfect city for you is ...</h2>
 		<h3 class="fs-subtitle">{{result.CITYNAME}}!</h3>
 
-		<img ng-src="{{result.IMAGE}}" alt="display perfect city image" style="width:500px;height:300px;" />
+		<img id="result-image" src="#" ng-src="{{result.IMAGE}}" alt="display perfect city image" style="width:500px;height:300px;" data-adaptive-background/>
 
 		<br />
 		<br />

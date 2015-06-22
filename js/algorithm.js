@@ -314,6 +314,11 @@ function process( sliderValues , aboutYou ){
 	// var selected_city = minimize_feature(truncated_results, 'CRIME')[0]
 
 	var selected_city = sorted_results[0]
+
+	if ( aboutYou.city.toUpperCase() === selected_city || false ){
+		selected_city = sorted_results[1];
+	}
+
 	console.log(selected_city);
 
 
