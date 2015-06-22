@@ -15,7 +15,6 @@ $scope.aboutYou = {
 
 }
 
-
 window.MYSCOPE = $scope;
 
 $scope.$on('redraw', function() {
@@ -34,8 +33,8 @@ $scope.clicky = function(){
 
 $scope.getResult = function() {
 	$scope.result = process($scope.sliderValues, $scope.aboutYou);
-	$('#result-image').attr('src', $scope.result.IMAGE);
-	$.adaptiveBackground.run();
+	
+	
 
 	// $('body').css('background-image', 'url('+$scope.result.IMAGE+')');
 
@@ -56,3 +55,11 @@ $scope.getResult = function() {
 }
 });
 
+myApp.filter('titlecase', function() {
+    return function(s) {
+        s = ( s === undefined || s === null ) ? '' : s;
+        return s.toString().toLowerCase().replace( /\b([a-z])/g, function(ch) {
+            return ch.toUpperCase();
+        });
+    };
+});
