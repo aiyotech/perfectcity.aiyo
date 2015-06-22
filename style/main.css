@@ -110,7 +110,18 @@ width: 70%;
 	padding: 10px;
 	color: white;
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: -43px;
+	padding-top: 0px;
+}
+
+.pcityabout {
+	font-family: montserrat, arial, verdana;
+	font-weight: bold;
+	padding: 10px;
+	padding-bottom: 0px;
+	color: black;
+	text-align: center;
+	margin-bottom: 8px;
 }
 
 .main {
