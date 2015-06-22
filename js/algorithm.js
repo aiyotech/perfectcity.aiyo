@@ -315,10 +315,12 @@ function process( sliderValues , aboutYou ){
 
 	var selected_city = sorted_results[0]
 
-	if ( aboutYou.city.toUpperCase() === selected_city || false ){
-		selected_city = sorted_results[1];
+	if(aboutYou.city){
+		if ( aboutYou.city.toUpperCase() === selected_city || false ){
+			selected_city = sorted_results[1];
+		}
 	}
-
+	
 	console.log(selected_city);
 
 
