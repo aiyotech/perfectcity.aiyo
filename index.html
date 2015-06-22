@@ -50,6 +50,9 @@
 		<input type="text" name="age" placeholder="21" ng-model="aboutYou.age"/>
 		<br>
 
+		
+
+
 
 
 				<input type="button" name="next" class="next action-button" value="Next"/>
@@ -58,31 +61,32 @@
 	</fieldset >
 	<fieldset>
 
-		<h2 class="fs-title">Tell us more about you!</h2>
+<h2 class="fs-title">Tell us more about you!</h2>
 
+		<!-- POPUALTON -->
 		
-		<!-- EDUCATION -->
+<div class="radio-parent">
+	<div class="text-label">
+		What kind of cities do you prefer?
+</div>
 
-	<div class="radio-parent">
-		<div class="text-label">
-			Would you like to pursue higher education?
-		</div>
-		<!-- Radio Buttons attempt -->
 		<div class="radio-button-holder">
-  		<div class="radio-holder">
-  			<input class="sound" type="radio" id="edu_yes" value="yes" name="user_edu" ng-model="aboutYou.education"> Yes
-  		</div>
+  			<div class="radio-holder">
+  			<input class="sound" type="radio" id="edu_yes" value="small" name="population" ng-model="aboutYou.citysize"> Small
+  			</div>
 	 		<div class="radio-holder">
-  			<input class="sound" type="radio" id="edu_no" value="no" name="user_edu" ng-model="aboutYou.education"> No
-  		</div>
-	  </div>
-	</div>
+  			<input class="sound" type="radio" id="edu_no" value="medium" name="population" ng-model="aboutYou.citysize"> Medium
+  			</div>
+  			<div class="radio-holder">
+  			<input class="sound" type="radio" id="edu_no" value="big" name="population" ng-model="aboutYou.citysize"> Big
+  			</div>
+	  	</div>
+</div>
 
+	
+<!-- PUBLIC TRANSIT -->
 
-		<!-- TRANSIT  -->
-
-
-	<div class="radio-parent">
+<div class="radio-parent">
 		<div class="text-label">
 			Do you use your city's public transit?
 		</div>
@@ -95,7 +99,7 @@
   			<input class="sound" type="radio" id="transit_no" value="no" name="user_trans" ng-model="aboutYou.transit"> No
   		</div>
 	  </div>
-	</div>
+</div>
 
 
 
@@ -131,6 +135,24 @@
   		</div>
 	  </div>
 	</div>
+
+	<!-- EDUCATION -->
+
+	<div class="radio-parent">
+		<div class="text-label">
+			Would you like to pursue higher education?
+		</div>
+		<!-- Radio Buttons attempt -->
+		<div class="radio-button-holder">
+  		<div class="radio-holder">
+  			<input class="sound" type="radio" id="edu_yes" value="yes" name="user_edu" ng-model="aboutYou.education"> Yes
+  		</div>
+	 		<div class="radio-holder">
+  			<input class="sound" type="radio" id="edu_no" value="no" name="user_edu" ng-model="aboutYou.education"> No
+  		</div>
+	  </div>
+	</div>
+
 
 
 		<!-- BUTTONS -->
