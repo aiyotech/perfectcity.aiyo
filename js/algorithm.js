@@ -250,6 +250,17 @@ var cityToImageMap = {
 	'SASKATOON': 'images/sask.png'
 }
 
+var cityToSizeMap = {
+	'EDMONTON': 'medium',
+	'HAMILTON': 'medium',
+	'MONTREAL': 'big',
+	'OTTAWA': 'medium',
+	'TORONTO': 'big',
+	'VANCOUVER': 'big',
+	'CALGARY': 'medium',
+	'WINNIPEG': 'small',
+	'SASKATOON': 'small'
+}
 var weights = {
 	'CRIME': 0.5
 }
@@ -279,6 +290,7 @@ function process( sliderValues , aboutYou ){
 	var ageGroup =  determineAgeGroup( aboutYou.age);
 	userInformation[ ageGroup ] = 0.8;
 
+	userInformation['CITYSIZE'] = aboutYou.citysize || 'big';
 
 	userInformation['TRANSIT_SCORE'] = sliderValues.transit / 10.0 || 0;
 	userInformation['CRIME'] = ( 1 - ( sliderValues.crime / 10.0 ) ) || 0;
@@ -313,13 +325,20 @@ function process( sliderValues , aboutYou ){
 	console.log(sorted_results)
 	// var selected_city = minimize_feature(truncated_results, 'CRIME')[0]
 
-	var selected_city = sorted_results[0]
+	var selected_city;
 
-	if(aboutYou.city){
-		if ( aboutYou.city.toUpperCase() === selected_city || false ){
-			selected_city = sorted_results[1];
+	for (var i = 0; i < sorted_results.length; i++) {
+		if ( userInformation['CITYSIZE'] !== cityToSizeMap[ sorted_results[i] ]  ){
+			continue;
 		}
-	}
+		if(aboutYou.city){
+			if ( aboutYou.city.toUpperCase() === selected_city || false ){
+				continue;
+			}
+		}
+		selected_city = sorted_results[i];
+	};
+
 
 	console.log(selected_city);
 
