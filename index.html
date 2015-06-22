@@ -41,13 +41,18 @@
 
         <!-- Text Input in form -->
 
+        Whats your name?
+		<br/>
+		<input type="text" name="city" placeholder="J Doe" ng-model="aboutYou.name"/>
+		<br>
+
 		What city do you currently live in? 
 		<br />
 		<input type="text" name="city" placeholder="New York" ng-model="aboutYou.city"/>
 		<br>
 		How old are you?
 		<br />
-		<input type="text" name="age" placeholder="21" ng-model="aboutYou.age"/>
+		<input type="number" name="age" placeholder="21" ng-model="aboutYou.age"/>
 		<br>
 
 		
@@ -68,7 +73,7 @@
 <div class="radio-parent">
 	<div class="text-label">
 		What kind of cities do you prefer?
-</div>
+	</div>
 
 		<div class="radio-button-holder">
   			<div class="radio-holder">
@@ -206,7 +211,7 @@
 <!--_____________________PAGE 3_____________________-->
 
 	<fieldset>
-		<h2 class="fs-title">And the perfect city for you is ...</h2>
+		<h2 class="fs-title">And the perfect city for {{aboutYou.name}} is ...</h2>
 		<h3 class="fs-subtitle">{{result.CITYNAME}}!</h3>
 
 		<img id="result-image" src="#" ng-src="{{result.IMAGE}}" alt="display perfect city image" style="width:500px;height:300px;" data-adaptive-background/>
