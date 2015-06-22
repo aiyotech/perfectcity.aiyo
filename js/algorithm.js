@@ -337,6 +337,7 @@ function process( sliderValues , aboutYou ){
 			}
 		}
 		selected_city = sorted_results[i];
+		break;
 	};
 
 
